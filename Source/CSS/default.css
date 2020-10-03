@@ -47,12 +47,18 @@
   filter: blur(5px);
 }
 
+.mem {
+  margin: 40px auto;
+  max-width: 1000px;
+  height: 600px;
+}
+
 .mem h1 {
   font-family: arial, sans-serif;
-  margin-top: 5rem;
+  margin-bottom: 6rem;
   text-align: center;
   font-size: 5rem;
-  color: ryan;
+  color: black;
   font-weight: 700px;
   text-shadow: 1px 1px 1px  #919191,
                         1px 2px 1px #919191,
@@ -67,6 +73,27 @@
 }
 
 .mem img {
-  display: inline;
-  position: left;
+  width: 300px;
+  height: 200px;
+  float: left;
+  margin: 5px 50px 40px 5px;
+  display: flex;
+  
+}
+
+.content {
+  height: 400px;
+}
+
+li{
+  font-size: 1.5rem;
+  line-height: 50px;
+}
+
+footer{
+  margin-top: 10px;
+  padding: 40px 0;
+  width: 100%;
+  background-color: #6184D8;
+  text-align: center;
 }

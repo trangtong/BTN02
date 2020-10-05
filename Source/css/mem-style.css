@@ -1,0 +1,78 @@
+.top-container {
+    background-color: #e3fdfd;
+    margin: 0;
+    padding-top: 10%;
+}
+
+.middle-container {
+    background-color: white;
+    margin: 0;
+}
+
+.bottom-container {
+    background-color: #e3fdfd;
+}
+
+h2, h3 {
+    color: #71c9ce;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 2;
+    margin: 0;
+}
+
+.top-cloud {
+    position: absolute;
+    width: 8%;
+    top: 10%;
+    right: 20%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    width: 8%;
+    bottom: 35%;
+    left: 15%;
+}
+
+.moutain {
+    width: 60%;
+    height: 60%;
+}
+
+.title-intro {
+    color: #71c9ce;
+    font-family: 'Parisienne', cursive;
+    font-size: 90pt;
+    margin: 0 auto;
+}
+
+.title-description {
+    color: #71c9ce;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20pt;
+    margin: 0 auto;
+}
+
+.img-profile {
+    width: 10%;
+    padding-top: 5%;
+}
+
+.description {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.img-skill1 {
+    width: 20%;
+    float: left;
+}

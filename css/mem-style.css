@@ -1,3 +1,7 @@
+body {
+    font-size: 1.2rem;;
+}
+
 .top-container {
     background-color: #e3fdfd;
     position: relative;
@@ -11,7 +15,15 @@
 
 .bottom-container {
     background-color: #e3fdfd;
-    padding: 50px 0 20px;
+    padding: 15px 0 20px;
+}
+
+.backward {
+    text-align: center;    
+    color: #71c9ce;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    text-decoration: none;
 }
 
 .footer-link {
@@ -24,7 +36,7 @@
 h2 {
     color: #71c9ce;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 
 h3 {
@@ -61,7 +73,7 @@ hr {
 .title-intro {
     color: #71c9ce;
     font-family: 'Parisienne', cursive;
-    font-size: 90pt;
+    font-size: 100pt;
     margin: 0 auto;
 }
 

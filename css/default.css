@@ -120,9 +120,13 @@ footer {
   text-decoration: none;
 }
 
+.footer-link:hover {
+  color: #a6e3e9;
+}
+
 p {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 8;
+  font-size: 1.1rem;
   line-height: 1.5;
   margin: 0;
 }

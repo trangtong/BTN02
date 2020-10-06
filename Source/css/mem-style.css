@@ -11,6 +11,13 @@
 
 .bottom-container {
     background-color: #e3fdfd;
+    margin: 100px auto;
+}
+
+a {
+    color: #71c9ce;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
 }
 
 h2, h3 {
@@ -20,8 +27,16 @@ h2, h3 {
 
 p {
     font-family: 'Cormorant Garamond', serif;
-    line-height: 2;
+    font-size: 8;
+    line-height: 1.5;
     margin: 0;
+}
+
+hr {
+    border: dotted #eeeeee 10px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
 }
 
 .top-cloud {
@@ -68,11 +83,48 @@ p {
 }
 
 .skill-row {
-    width: 50%;
-    margin: 0 auto;
+    margin: 100px auto;
+    text-align: left;
+    width: 40%;
 }
 
 .img-skill1 {
     width: 20%;
     float: left;
+    margin-right: 20px; 
+}
+
+.img-skill2 {
+    width: 20%;
+    float: right;
+    margin-left: 20px;
+}
+
+.contact {
+    margin: 0 auto;
+    width: 30%;
+}
+
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border-color: white;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #71C9CE;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+        
+.btn:hover {
+    background: #A6E3E9;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
 }
